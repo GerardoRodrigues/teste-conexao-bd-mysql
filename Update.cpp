@@ -6,7 +6,7 @@ int main(){
     MYSQL* connect = mysql_init(NULL);
 
     std::string update = {};
-    std::string campo, mail, id, novo;
+    std::string campo, id, novo;
 
     connect = mysql_real_connect(connect, "localhost", "root", "", "cpp", 0, NULL, 0);
     try
